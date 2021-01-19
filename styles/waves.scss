@@ -1,0 +1,57 @@
+
+.wave {
+    position: relative;
+    width: 100%;
+    padding-top: 5%;
+    top: -5px;
+    left: 0;
+     background-image: url('/svg/wave--infinite-pink.svg');
+    background-repeat: repeat-x;
+    background-size: 100%;
+    animation: wave 8s linear infinite;
+    border: none  !important;
+    margin: 0;
+  }
+  .wave::before {
+    content: '';
+    position: relative;
+    width: 100%;
+    padding-top: 12%;
+    top: -8px;
+    left: 0;
+    background-image: url('/svg/wave--infinite*pink.svg');
+    background-repeat: repeat-x;
+    background-size: 100%;
+    opacity: .4;
+    animation: wave-reverse 8s linear infinite;
+  }
+  .wave::after {
+    content: '';
+    position: relative;
+    width: 100%;
+    padding-top: 10%;
+    top: -5px;
+    left: 0;
+    background-image: url('/images/wave--infinite-white.svg');
+    background-repeat: repeat-x;
+    background-size: 100%;
+    opacity: .8;
+    animation-delay: -4s;
+    animation: wave 16s linear infinite;
+  }
+  @keyframes wave {
+    0% {
+      background-position: 0;
+    }
+    100% {
+      background-position: 100vw;
+    }
+  }
+  @keyframes wave-reverse {
+    0% {
+      background-position: 100vw;
+    }
+    100% {
+      background-position: 0;
+    }
+  }
