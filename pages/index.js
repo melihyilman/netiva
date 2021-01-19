@@ -31,8 +31,8 @@ export default class Home extends React.Component {
     return (
       <React.Fragment>
         <Head>
-          <meta property="og:site_name" content="NetivaSoftware" />
-          <meta property="og:url" content="https://netivasoftware.com" />
+          <meta property="og:site_name" content="Netiva Software" />
+          <meta property="og:url" content="https://netivasoft.com" />
           <meta
             property="og:title"
             content="Netiva Software | Son Teknoloji Yazılım Ürünleri"
@@ -44,7 +44,7 @@ export default class Home extends React.Component {
           <meta property="og:type" content="website" />
           <meta
             property="og:image"
-            content="https://netivasoftware.com/images/logo.png"
+            content="https://netivasoft.com/images/logo.png"
           />
           <meta property="og:locale" content="tr" />
           <meta property="og:locale:alternate" content="en" />
@@ -59,7 +59,7 @@ export default class Home extends React.Component {
           />
           <meta
             name="twitter:image"
-            content="https://netivasoftware.com/images/logo.png"
+            content="https://netivasoft.com/images/logo.png"
           />
           <meta
             name="description"
